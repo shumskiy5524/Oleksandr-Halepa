@@ -1,7 +1,7 @@
 # 👋 Hi, I'm Halepa Oleksandr
 
 ## 🧑‍💻 About Me
-Junior Fullstack Developer | React | Node.js  
+Junior Fullstack Developer JavaScript | React | Node.js  
 
 Fullstack developer with experience in JavaScript, React, Redux, Node.js, and MongoDB.  
 
