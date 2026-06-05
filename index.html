@@ -1,4 +1,4 @@
-```html
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -17,273 +17,253 @@
 
     <header class="header">
         <div class="container nav-container">
+  <a href="#" class="logo">
+   Oleksandr Halepa
+   </a>
 
-            <a href="#" class="logo">
-                Oleksandr Halepa
-            </a>
+  <nav class="nav" id="nav">
+   <a href="#about" data-lang="aboutNav">About</a>
+    <a href="#skills" data-lang="skillsNav">Skills</a>
+    <a href="#projects" data-lang="projectsNav">Projects</a>
+    <a href="#contact" data-lang="contactNav">Contact</a>
+   </nav>
 
-            <nav class="nav" id="nav">
-                <a href="#about" data-lang="aboutNav">About</a>
-                <a href="#skills" data-lang="skillsNav">Skills</a>
-                <a href="#projects" data-lang="projectsNav">Projects</a>
-                <a href="#contact" data-lang="contactNav">Contact</a>
-            </nav>
+<div class="right-menu">
 
-            <div class="right-menu">
+<div class="language-switcher">
+ <button class="lang-btn active" data-language="en">
+    EN
+   </button>
 
-                <div class="language-switcher">
-                    <button class="lang-btn active" data-language="en">
-                        EN
-                    </button>
+  <button class="lang-btn" data-language="ua">
+    UA
+</button>
 
-                    <button class="lang-btn" data-language="ua">
-                        UA
-                    </button>
+ <button class="lang-btn" data-language="pl">
+    PL
+  </button>
+ </div>
 
-                    <button class="lang-btn" data-language="pl">
-                        PL
-                    </button>
-                </div>
+<div class="burger" id="burger">
+   <span></span>
+   <span></span>
+   <span></span>
+ </div>
 
-                <div class="burger" id="burger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
+ </div>
 
-            </div>
-
-        </div>
+ </div>
     </header>
 
     <main>
 
-        <section class="hero">
+  <section class="hero">
+
+<div class="container hero-content">
+
+ <div class="hero-image">
+   <img src="./images/profile.jpg" alt="Oleksandr Halepa">
+  </div>
 
-            <div class="container hero-content">
+ <div class="hero-text">
+   <h1>   Oleksandr Halepa </h1>
 
-                <div class="hero-image">
-                    <img src="./images/profile.jpg" alt="Oleksandr Halepa">
-                </div>
+   <h2 data-lang="position">
+   Frontend / Fullstack Developer
+    </h2>
+    <p data-lang="heroText">
+   Building modern, responsive and user-friendly web applications.
+   </p>
+    <div class="hero-buttons">
 
-                <div class="hero-text">
+   <a href="#projects" class="btn-primary" data-lang="projectsBtn">
+   View Projects
+   </a>
 
-                    <h1>
-                        Oleksandr Halepa
-                    </h1>
+   <a href="#contact" class="btn-secondary" data-lang="contactBtn">
+   Contact Me
+   </a>
 
-                    <h2 data-lang="position">
-                        Frontend / Fullstack Developer
-                    </h2>
+ </div>
 
-                    <p data-lang="heroText">
-                        Building modern, responsive and user-friendly web applications.
-                    </p>
+    </div>
+  </div>
 
-                    <div class="hero-buttons">
+  </section>
 
-                        <a href="#projects" class="btn-primary" data-lang="projectsBtn">
-                            View Projects
-                        </a>
+ <section class="about" id="about">
 
-                        <a href="#contact" class="btn-secondary" data-lang="contactBtn">
-                            Contact Me
-                        </a>
+   <div class="container">
+ <section class="about">
+ <h2>About Me</h2>
+   <div class="card">
+ <p>   I am a Junior Full-Stack Developer focused on building clean and practical web applications.   </p>
+            
+   <p>
+    I work with HTML, CSS and JavaScript, and I’m currently improving my backend skills to build full products
+    end-to-end.
+ </p>
+            
+ <p>
+   I enjoy turning ideas into real interfaces that are simple to use, fast, and visually clear.
+  </p>
+            
+<p>
+  My focus is to grow as a developer by building real projects and delivering useful solutions for users and
+    businesses.
+   </p>
+</div>
+ </section>
 
-                    </div>
+  </div>
 
-                </div>
+ </section>
 
-            </div>
+ <section class="skills" id="skills">
 
-        </section>
+<div class="container">
 
-        <section class="about" id="about">
+<h2 data-lang="skillsTitle">
+        Skills   </h2>
+  <div class="skills-grid">
 
-            <div class="container">
+   <div class="skill-card">React</div>
+    <div class="skill-card">JavaScript</div>
+   <div class="skill-card">HTML5</div>
+    <div class="skill-card">CSS3</div>
+   <div class="skill-card">Node.js</div>
+    <div class="skill-card">Express</div>
+   <div class="skill-card">REST API</div>
+   <div class="skill-card">MongoDB</div>
+   <div class="skill-card">GitHub</div>
+    </div>
 
-                <h2 data-lang="aboutTitle">
-                    About Me
-                </h2>
+   </div>
 
-                <p data-lang="aboutText">
-                    Originally from Zaporizhzhia, Ukraine, currently living in Poznań, Poland.
-                    I specialize in frontend and fullstack development using React,
-                    JavaScript, Node.js, REST API and MongoDB.
-                </p>
+  </section>
 
-            </div>
+  <section class="projects" id="projects">
 
-        </section>
+  <div class="container">
 
-        <section class="skills" id="skills">
+  <h2 data-lang="projectsTitle">
+  Projects
+</h2>
 
-            <div class="container">
+ <div class="projects-grid">
 
-                <h2 data-lang="skillsTitle">
-                    Skills
-                </h2>
+  <div class="project-card">
 
-                <div class="skills-grid">
+   <h3>Favorite Artist</h3>
+  <p>  Team project </p>
+    <a href="https://github.com/Vladyslav-Mohyla/Favorite-Artist" target="_blank"
+   class="project-btn">
+   GitHub
+  </a>
 
-                    <div class="skill-card">React</div>
-                    <div class="skill-card">JavaScript</div>
-                    <div class="skill-card">HTML5</div>
-                    <div class="skill-card">CSS3</div>
-                    <div class="skill-card">Node.js</div>
-                    <div class="skill-card">Express</div>
-                    <div class="skill-card">REST API</div>
-                    <div class="skill-card">MongoDB</div>
-                    <div class="skill-card">GitHub</div>
+ </div>
 
-                </div>
+<div class="project-card">
 
-            </div>
+  <h3>Project CTF Group</h3>
 
-        </section>
+   <p>   Team project  </p>
+   <a href="https://github.com/Vfrost1310/project-ctf-group" target="_blank" class="project-btn">
+   GitHub
+   </a>
 
-        <section class="projects" id="projects">
+  </div>
 
-            <div class="container">
+ <div class="project-card">
 
-                <h2 data-lang="projectsTitle">
-                    Projects
-                </h2>
+    <h3>Coming Soon 🚀</h3>
 
-                <div class="projects-grid">
+ <p data-lang="futureProject">
+   New project is coming
+ </p>
 
-                    <div class="project-card">
+ </div>
 
-                        <h3>Favorite Artist</h3>
+  </div>
 
-                        <p>
-                            Team project
-                        </p>
+   </div>
 
-                        <a href="https://github.com/Vladyslav-Mohyla/Favorite-Artist" target="_blank"
-                            class="project-btn">
-                            GitHub
-                        </a>
+ </section>
 
-                    </div>
+ <section class="services">
 
-                    <div class="project-card">
+ <div class="container">
 
-                        <h3>Project CTF Group</h3>
+  <h2 data-lang="helpTitle">
+   How I Can Help
+  </h2>
 
-                        <p>
-                            Team project
-                        </p>
+ <div class="help-grid">
 
-                        <a href="https://github.com/Vfrost1310/project-ctf-group" target="_blank" class="project-btn">
-                            GitHub
-                        </a>
+  <div class="help-card">
+   Landing Pages
+ </div>
 
-                    </div>
+ <div class="help-card">
+   React Development
+ </div>
 
-                    <div class="project-card">
+ <div class="help-card">
+   Responsive Websites
+  </div>
 
-                        <h3>Coming Soon 🚀</h3>
+  <div class="help-card">
+   REST API Integration
+  </div>
 
-                        <p data-lang="futureProject">
-                            New project is coming
-                        </p>
+ <div class="help-card">
+       Fullstack Apps
+</div>
 
-                    </div>
+<div class="help-card">
+    UI Improvements
+  </div>
 
-                </div>
+    </div>
 
-            </div>
+ </div>
 
-        </section>
+ </section>
 
-        <section class="services">
+ <section class="cta">
 
-            <div class="container">
+<div class="container">
 
-                <h2 data-lang="helpTitle">
-                    How I Can Help
-                </h2>
+<h2 data-lang="ctaTitle">  Looking for a developer for your project?  </h2>
 
-                <div class="help-grid">
+<a href="#contact" class="btn-primary" data-lang="ctaBtn"> Let's Work Together </a>
 
-                    <div class="help-card">
-                        Landing Pages
-                    </div>
+   </div>
 
-                    <div class="help-card">
-                        React Development
-                    </div>
+</section>
 
-                    <div class="help-card">
-                        Responsive Websites
-                    </div>
+<footer class="footer" id="contact">
 
-                    <div class="help-card">
-                        REST API Integration
-                    </div>
+ <div class="container">
 
-                    <div class="help-card">
-                        Fullstack Apps
-                    </div>
+  <h2 data-lang="contactTitle">
+   Contact
+  </h2>
 
-                    <div class="help-card">
-                        UI Improvements
-                    </div>
+  <div class="contacts">
 
-                </div>
+  <a href="mailto:shumskiparents@gmail.com">    Email</a>
 
-            </div>
+ <a href="tel:+48452666047">   Phone / Telegram  </a>
 
-        </section>
+  <a href="https://github.com/shumskiy5524" target="_blank">   GitHub </a>
 
-        <section class="cta">
+  <a href="https://www.linkedin.com/in/oleksandr-halepa/" target="_blank">    LinkedIn </a>
 
-            <div class="container">
+ </div>
+</div>
 
-                <h2 data-lang="ctaTitle">
-                    Looking for a developer for your project?
-                </h2>
-
-                <a href="#contact" class="btn-primary" data-lang="ctaBtn">
-                    Let's Work Together
-                </a>
-
-            </div>
-
-        </section>
-
-        <footer class="footer" id="contact">
-
-            <div class="container">
-
-                <h2 data-lang="contactTitle">
-                    Contact
-                </h2>
-
-                <div class="contacts">
-
-                    <a href="mailto:shumskiparents@gmail.com">
-                        Email
-                    </a>
-
-                    <a href="tel:+48452666047">
-                        Phone / Telegram
-                    </a>
-
-                    <a href="https://github.com/shumskiy5524" target="_blank">
-                        GitHub
-                    </a>
-
-                    <a href="https://www.linkedin.com/in/oleksandr-halepa/" target="_blank">
-                        LinkedIn
-                    </a>
-
-                </div>
-
-            </div>
-
-        </footer>
+ </footer>
 
     </main>
 
