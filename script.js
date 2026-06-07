@@ -28,13 +28,17 @@ const translations = {
     aboutTitle: "About Me",
 
     aboutText:
-      "I am a Full-Stack Developer focused on building modern, responsive and user-friendly web applications. I work with HTML, CSS, JavaScript and continuously improve my backend skills to create complete digital products. I enjoy turning ideas into clean, functional and practical interfaces that deliver real value to users and businesses.",
-
+      "I am a Full-Stack Developer building modern web applications using React, JavaScript, TypeScript, Node.js, Express, and MongoDB. " +
+      "I focus on creating fast, scalable, and user-friendly interfaces with clean code and solid architecture. " +
+      "I enjoy turning complex problems into simple, functional, and reliable solutions that work in real production environments.",
     skillsTitle: "Skills",
 
     projectsTitle: "Projects",
 
     futureProject: "New project is coming",
+    project1_desc: "Team project — worked on forms and UI.",
+    project2_desc: "Team project — implemented forms and frontend logic.",
+    viewProjectBtn: "View Website",
 
     helpTitle: "How I Can Help",
 
@@ -67,13 +71,18 @@ const translations = {
     aboutTitle: "Про мене",
 
     aboutText:
-      "Я Full-Stack Developer, зосереджений на створенні сучасних, адаптивних та зручних вебзастосунків. Працюю з HTML, CSS, JavaScript і постійно покращую backend навички для створення повноцінних цифрових продуктів. Мені подобається перетворювати ідеї на зрозумілі, функціональні та практичні інтерфейси.",
+      "Я Full-Stack Developer, який створює сучасні вебзастосунки з використанням React, JavaScript, TypeScript, Node.js, Express і MongoDB. " +
+      "Працюю над створенням швидких, масштабованих та зручних інтерфейсів із чистим кодом та продуманою архітектурою. " +
+      "Мені подобається перетворювати складні задачі на прості, функціональні та надійні рішення, які працюють у реальних проєктах.",
 
     skillsTitle: "Навички",
 
     projectsTitle: "Проєкти",
 
     futureProject: "Новий проєкт скоро з'явиться",
+    project1_desc: "Командний проєкт — робота з формами та UI.",
+    project2_desc: "Командний проєкт — реалізація форм та логіки фронтенду.",
+    viewProjectBtn: "Переглянути сайт",
 
     helpTitle: "Чим я можу допомогти",
 
@@ -106,14 +115,18 @@ const translations = {
     aboutTitle: "O mnie",
 
     aboutText:
-      "Jestem Full-Stack Developerem skupionym na tworzeniu nowoczesnych, responsywnych i przyjaznych dla użytkownika aplikacji webowych. Pracuję z HTML, CSS i JavaScript oraz stale rozwijam umiejętności backendowe, aby tworzyć kompletne produkty cyfrowe.",
-
+      "Jestem Full-Stack Developerem tworzącym nowoczesne aplikacje webowe z użyciem React, JavaScript, TypeScript, Node.js, Express i MongoDB. " +
+      "Skupiam się na budowaniu szybkich, skalowalnych i przyjaznych dla użytkownika interfejsów z czystym kodem i dobrą architekturą. " +
+      "Lubię zamieniać złożone problemy w proste, funkcjonalne i stabilne rozwiązania działające w realnych projektach.",
     skillsTitle: "Umiejętności",
 
     projectsTitle: "Projekty",
 
     futureProject: "Nowy projekt już wkrótce",
-
+    project1_desc: "Projekt zespołowy — praca z formularzami i UI.",
+    project2_desc:
+      "Projekt zespołowy — implementacja formularzy i logiki frontend.",
+    viewProjectBtn: "Zobacz stronę",
     helpTitle: "Jak mogę pomóc",
 
     help1: "Landing Pages",

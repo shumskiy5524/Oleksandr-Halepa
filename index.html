@@ -12,7 +12,7 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
  
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
@@ -143,12 +143,15 @@
 
           <div class="skill-card">React</div>
           <div class="skill-card">JavaScript</div>
+          <div class="skill-card">TypeScript</div>
           <div class="skill-card">HTML5</div>
           <div class="skill-card">CSS3</div>
           <div class="skill-card">Node.js</div>
           <div class="skill-card">Express</div>
           <div class="skill-card">REST API</div>
           <div class="skill-card">MongoDB</div>
+          <div class="skill-card">Mongoose</div>
+          <div class="skill-card">Git</div>
           <div class="skill-card">GitHub</div>
 
         </div>
@@ -156,61 +159,65 @@
       </div>
 
     </section>
+<!-- PROJECTS -->
+<section class="projects" id="projects">
 
-    <!-- PROJECTS -->
-    <section class="projects" id="projects">
+  <div class="container">
 
-      <div class="container">
+    <h2 data-lang="projectsTitle">
+      Projects
+    </h2>
 
-        <h2 data-lang="projectsTitle">
-          Projects
-        </h2>
+    <div class="projects-grid">
 
-        <div class="projects-grid">
+      <!-- PROJECT 1 -->
+      <div class="project-card">
 
-          <div class="project-card">
+        <h3>Favorite Artist</h3>
 
-            <h3>Favorite Artist</h3>
+        <p data-lang="project1_desc">
+          Team project — worked on forms and UI.
+        </p>
 
-            <p>
-              Team project — worked on forms and UI.
-            </p>
-
-            <a href="https://vladyslav-mohyla.github.io/Favorite-Artist/" target="_blank" class="project-btn">
-              View Website
-            </a>
-
-          </div>
-
-          <div class="project-card">
-
-            <h3>EcoTote</h3>
-
-            <p>
-              Team project — implemented forms and frontend logic.
-            </p>
-
-            <a href="https://vfrost1310.github.io/project-ctf-group/" target="_blank" class="project-btn">
-              View Website
-            </a>
-
-          </div>
-
-          <div class="project-card">
-
-            <h3>Coming Soon 🚀</h3>
-
-            <p data-lang="futureProject">
-              New project is coming
-            </p>
-
-          </div>
-
-        </div>
+        <a href="https://vladyslav-mohyla.github.io/Favorite-Artist/" target="_blank" class="project-btn"
+          data-lang="viewProjectBtn">
+          View Website
+        </a>
 
       </div>
 
-    </section>
+      <!-- PROJECT 2 -->
+      <div class="project-card">
+
+        <h3>EcoTote</h3>
+
+        <p data-lang="project2_desc">
+          Team project — implemented forms and frontend logic.
+        </p>
+
+        <a href="https://vfrost1310.github.io/project-ctf-group/" target="_blank" class="project-btn"
+          data-lang="viewProjectBtn">
+          View Website
+        </a>
+
+      </div>
+
+      <!-- PROJECT 3 -->
+      <div class="project-card">
+
+        <h3>Coming Soon 🚀</h3>
+
+        <p data-lang="futureProject">
+          New project is coming
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
 
     <!-- SERVICES -->
     <section class="services">
@@ -254,47 +261,64 @@
     </section>
 
     <!-- CONTACT -->
-    <footer class="footer" id="contact">
-    
-      <div class="container">
-    
-        <section class="contact">
-    
-          <h2 data-lang="contactTitle">Contact</h2>
-    
-          <div class="contact-bar">
-    
-            <!-- LEFT -->
-            <div class="contact-left">
-              <p>📞 +48 452 666 047</p>
-            </div>
-    
-            <!-- CENTER -->
-            <div class="contact-center">
-              <p>📧 shumskiparents@gmail.com</p>
-            </div>
-    
-            <!-- RIGHT -->
-            <div class="contact-right">
-    
-              <a href="https://github.com/shumskiy5524" target="_blank" class="icon-link">
-                <i class="fa-brands fa-github"></i>
-              </a>
-    
-              <a href="https://www.linkedin.com/in/oleksandr-halepa/?locale=en" target="_blank" class="icon-link">
-                <i class="fa-brands fa-linkedin"></i>
-              </a>
-    
-            </div>
-    
+  <footer class="footer" id="contact">
+  
+    <div class="container">
+  
+      <section class="contact">
+  
+        <h2 data-lang="contactTitle">Contact</h2>
+  
+        <div class="contact-bar">
+  
+          <!-- PHONE -->
+          <div class="contact-left">
+            <a href="tel:+48452666047" class="contact-item">
+              <i class="fa-solid fa-phone"></i>
+              <span>+48 452 666 047</span>
+            </a>
           </div>
-    
-        </section>
-    
-      </div>
-    
-    </footer>
-
+  
+          <!-- EMAIL -->
+          <div class="contact-center">
+            <p class="contact-item">
+              <i class="fa-solid fa-envelope"></i>
+              <span>shumskiparents@gmail.com</span>
+            </p>
+          </div>
+  
+          <!-- MESSENGERS -->
+          <div class="contact-right">
+  
+            <a href="https://t.me/sanyashumskiy" target="_blank" class="icon-btn">
+              <i class="fa-brands fa-telegram"></i>
+            </a>
+  
+            <a href="https://msng.link/o/?+48452666047=wa" target="_blank" class="icon-btn">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+  
+            <a href="https://msng.link/o/?+48452666047=vi" target="_blank" class="icon-btn">
+              <i class="fa-brands fa-viber"></i>
+            </a>
+  
+            <a href="https://github.com/shumskiy5524" target="_blank" class="icon-btn">
+              <i class="fa-brands fa-github"></i>
+            </a>
+  
+            <a href="https://www.linkedin.com/in/oleksandr-halepa/" target="_blank" class="icon-btn">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+  
+          </div>
+  
+        </div>
+  
+      </section>
+  
+    </div>
+  
+  </footer>
   </main>
 
   <script src="script.js"></script>
