@@ -13,7 +13,6 @@ document.querySelectorAll(".nav a").forEach((link) => {
 
 const translations = {
   en: {
-    aboutNav: "About",
     skillsNav: "Skills",
     projectsNav: "Projects",
     contactNav: "Contact",
@@ -21,9 +20,6 @@ const translations = {
     position: "Full-Stack Developer",
 
     heroText: "Looking for a developer for your project? Let's Work Together.",
-
-    projectsBtn: "View Projects",
-    contactBtn: "Contact Me",
 
     aboutTitle: "About Me",
 
@@ -56,7 +52,6 @@ const translations = {
   },
 
   ua: {
-    aboutNav: "Про мене",
     skillsNav: "Навички",
     projectsNav: "Проєкти",
     contactNav: "Контакти",
@@ -64,9 +59,6 @@ const translations = {
     position: "Full-Stack Developer",
 
     heroText: "Шукаєте розробника для свого проєкту? Давайте працювати разом.",
-
-    projectsBtn: "Мої проєкти",
-    contactBtn: "Зв'язатися",
 
     aboutTitle: "Про мене",
 
@@ -100,7 +92,6 @@ const translations = {
   },
 
   pl: {
-    aboutNav: "O mnie",
     skillsNav: "Umiejętności",
     projectsNav: "Projekty",
     contactNav: "Kontakt",
@@ -108,9 +99,6 @@ const translations = {
     position: "Full-Stack Developer",
 
     heroText: "Szukasz developera do swojego projektu? Pracujmy razem.",
-
-    projectsBtn: "Zobacz projekty",
-    contactBtn: "Kontakt",
 
     aboutTitle: "O mnie",
 

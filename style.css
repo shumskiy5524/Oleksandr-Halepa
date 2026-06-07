@@ -372,6 +372,7 @@ section h2 {
     transform: translateY(-3px);
     color: #3b82f6;
 }
+
 /* TABLET */
 
 @media(min-width:768px) {
@@ -385,6 +386,7 @@ section h2 {
     .hero-text h1 {
         font-size: 3rem;
     }
+    
 }
 
 /* DESKTOP */
