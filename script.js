@@ -18,9 +18,9 @@ const translations = {
     projectsNav: "Projects",
     contactNav: "Contact",
 
-    position: "Frontend / Fullstack Developer",
+    position: "Full-Stack Developer",
 
-    heroText: "Building modern, responsive and user-friendly web applications.",
+    heroText: "Looking for a developer for your project? Let's Work Together.",
 
     projectsBtn: "View Projects",
     contactBtn: "Contact Me",
@@ -28,7 +28,7 @@ const translations = {
     aboutTitle: "About Me",
 
     aboutText:
-      "Originally from Zaporizhzhia, Ukraine, currently living in Poznań, Poland. I specialize in frontend and fullstack development using React, JavaScript, Node.js, REST API and MongoDB. I create modern, responsive and user-friendly web applications.",
+      "I am a Full-Stack Developer focused on building modern, responsive and user-friendly web applications. I work with HTML, CSS, JavaScript and continuously improve my backend skills to create complete digital products. I enjoy turning ideas into clean, functional and practical interfaces that deliver real value to users and businesses.",
 
     skillsTitle: "Skills",
 
@@ -38,8 +38,14 @@ const translations = {
 
     helpTitle: "How I Can Help",
 
-    ctaTitle: "Looking for a developer for your project?",
+    help1: "Landing Pages",
+    help2: "React Development",
+    help3: "Responsive Websites",
+    help4: "REST API Integration",
+    help5: "Fullstack Apps",
+    help6: "UI Improvements",
 
+    ctaTitle: "Looking for a developer for your project?",
     ctaBtn: "Let's Work Together",
 
     contactTitle: "Contact",
@@ -51,9 +57,9 @@ const translations = {
     projectsNav: "Проєкти",
     contactNav: "Контакти",
 
-    position: "Frontend / Fullstack Developer",
+    position: "Full-Stack Developer",
 
-    heroText: "Створюю сучасні, адаптивні та зручні вебзастосунки.",
+    heroText: "Шукаєте розробника для свого проєкту? Давайте працювати разом.",
 
     projectsBtn: "Мої проєкти",
     contactBtn: "Зв'язатися",
@@ -61,7 +67,7 @@ const translations = {
     aboutTitle: "Про мене",
 
     aboutText:
-      "Родом із Запоріжжя, Україна. Зараз проживаю в Познані, Польща. Спеціалізуюсь на frontend та fullstack розробці з використанням React, JavaScript, Node.js, REST API та MongoDB. Створюю сучасні та адаптивні вебзастосунки.",
+      "Я Full-Stack Developer, зосереджений на створенні сучасних, адаптивних та зручних вебзастосунків. Працюю з HTML, CSS, JavaScript і постійно покращую backend навички для створення повноцінних цифрових продуктів. Мені подобається перетворювати ідеї на зрозумілі, функціональні та практичні інтерфейси.",
 
     skillsTitle: "Навички",
 
@@ -71,8 +77,14 @@ const translations = {
 
     helpTitle: "Чим я можу допомогти",
 
-    ctaTitle: "Потрібен розробник для вашого проєкту?",
+    help1: "Лендінг сторінки",
+    help2: "React розробка",
+    help3: "Адаптивні сайти",
+    help4: "Інтеграція REST API",
+    help5: "Fullstack застосунки",
+    help6: "Покращення UI",
 
+    ctaTitle: "Потрібен розробник для вашого проєкту?",
     ctaBtn: "Працюймо разом",
 
     contactTitle: "Контакти",
@@ -84,10 +96,9 @@ const translations = {
     projectsNav: "Projekty",
     contactNav: "Kontakt",
 
-    position: "Frontend / Fullstack Developer",
+    position: "Full-Stack Developer",
 
-    heroText:
-      "Tworzę nowoczesne, responsywne i przyjazne dla użytkownika aplikacje webowe.",
+    heroText: "Szukasz developera do swojego projektu? Pracujmy razem.",
 
     projectsBtn: "Zobacz projekty",
     contactBtn: "Kontakt",
@@ -95,7 +106,7 @@ const translations = {
     aboutTitle: "O mnie",
 
     aboutText:
-      "Pochodzę z Zaporoża na Ukrainie, obecnie mieszkam w Poznaniu, Polska. Specjalizuję się w frontend oraz fullstack development z wykorzystaniem React, JavaScript, Node.js, REST API i MongoDB. Tworzę nowoczesne oraz responsywne aplikacje webowe.",
+      "Jestem Full-Stack Developerem skupionym na tworzeniu nowoczesnych, responsywnych i przyjaznych dla użytkownika aplikacji webowych. Pracuję z HTML, CSS i JavaScript oraz stale rozwijam umiejętności backendowe, aby tworzyć kompletne produkty cyfrowe.",
 
     skillsTitle: "Umiejętności",
 
@@ -105,8 +116,14 @@ const translations = {
 
     helpTitle: "Jak mogę pomóc",
 
-    ctaTitle: "Szukasz developera do swojego projektu?",
+    help1: "Landing Pages",
+    help2: "React Development",
+    help3: "Responsywne strony",
+    help4: "Integracja REST API",
+    help5: "Aplikacje Fullstack",
+    help6: "Ulepszenia UI",
 
+    ctaTitle: "Szukasz developera do swojego projektu?",
     ctaBtn: "Pracujmy razem",
 
     contactTitle: "Kontakt",
@@ -140,7 +157,6 @@ function setLanguage(language) {
 languageButtons.forEach((button) => {
   button.addEventListener("click", () => {
     const language = button.dataset.language;
-
     setLanguage(language);
   });
 });

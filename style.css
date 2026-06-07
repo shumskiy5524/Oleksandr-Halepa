@@ -286,17 +286,37 @@ section h2 {
     border-top: 1px solid rgba(255, 255, 255, .08);
 }
 
-.contacts {
+.contact-bar {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-    gap: 1rem;
+    max-width: 900px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
-.contacts a:hover {
+.contact-left,
+.contact-center,
+.contact-right {
+    flex: 1;
+    text-align: center;
+}
+
+.contact-bar p {
+    color: #94a3b8;
+    margin: 0;
+}
+.icon-link {
+    font-size: 26px;
     color: #60a5fa;
+    transition: 0.3s;
 }
 
+.icon-link:hover {
+    transform: translateY(-3px);
+    color: #3b82f6;
+}
 /* TABLET */
 
 @media(min-width:768px) {
