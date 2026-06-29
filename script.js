@@ -34,6 +34,7 @@ const translations = {
     futureProject: "New project is coming",
     project1_desc: "Team project — worked on forms and UI.",
     project2_desc: "Team project — implemented forms and frontend logic.",
+    project3_desc: "Team project — recipe sharing platform.",
     viewProjectBtn: "View Website",
 
     helpTitle: "How I Can Help",
@@ -74,6 +75,7 @@ const translations = {
     futureProject: "Новий проєкт скоро з'явиться",
     project1_desc: "Командний проєкт — робота з формами та UI.",
     project2_desc: "Командний проєкт — реалізація форм та логіки фронтенду.",
+    project3_desc: "Командний проєкт — платформа для обміну рецептами",
     viewProjectBtn: "Переглянути сайт",
 
     helpTitle: "Чим я можу допомогти",
@@ -114,6 +116,9 @@ const translations = {
     project1_desc: "Projekt zespołowy — praca z formularzami i UI.",
     project2_desc:
       "Projekt zespołowy — implementacja formularzy i logiki frontend.",
+    project2_desc:
+      "Projekt zespołowy — implementacja formularzy i logiki frontend.",
+    project3_desc: "Projekt zespołowy — platforma do udostępniania przepisów",
     viewProjectBtn: "Zobacz stronę",
     helpTitle: "Jak mogę pomóc",
 
