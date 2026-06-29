@@ -119,6 +119,7 @@ const translations = {
     project2_desc:
       "Projekt zespołowy — implementacja formularzy i logiki frontend.",
     project3_desc: "Projekt zespołowy — platforma do udostępniania przepisów",
+
     viewProjectBtn: "Zobacz stronę",
     helpTitle: "Jak mogę pomóc",
 
